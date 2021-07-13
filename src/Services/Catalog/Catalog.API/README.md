@@ -36,3 +36,7 @@ API документ
 Nuget:
 1. MongoDB.Driver
 2. Swashbuckle.AspNetCore
+
+Использованные паттерны:
+1. N-layer архитектура
+2. CRUD / Repository паттерны для работы с базой данных

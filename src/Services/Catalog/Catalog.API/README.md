@@ -1,4 +1,4 @@
-﻿Добавление Mongo DB в проект:
+Добавление Mongo DB в проект:
 1. Удостовериться, что установлен докер (проверить командой `docker ps`)
 2. Скачать образ Mongo DB https://hub.docker.com/_/mongo с помощью команды `docker pull mongo`
 3. Запустить образ `docker run -d -p 27017:27017 --name shopping-mongo mongo`:
@@ -32,3 +32,7 @@ mongo - образ Mongo DB
 
 API документ 
 ![alt text](https://github.com/Vankezzz/AspnetMicroservices/blob/main/screenshots/catalog_api_doc.PNG "Описание работы сервиса")
+
+Nuget:
+1. MongoDB.Driver
+2. Swashbuckle.AspNetCore

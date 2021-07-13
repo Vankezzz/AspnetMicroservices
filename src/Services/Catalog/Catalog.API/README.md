@@ -31,4 +31,4 @@ mongo - образ Mongo DB
 7. `db.Products.remove({})` - удаление всех записей из коллекции Products
 
 API документ 
-![alt text](screenshots/catalog_api_doc.PNG "Описание работы сервиса")
+![alt text](https://github.com/Vankezzz/AspnetMicroservices/blob/main/screenshots/catalog_api_doc.PNG "Описание работы сервиса")

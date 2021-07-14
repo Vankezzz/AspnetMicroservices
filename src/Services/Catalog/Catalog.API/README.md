@@ -12,7 +12,7 @@ mongo - образ Mongo DB
 Для докера
 1. `docker logs -f shopping-mongo` - смотрим логи 
 2. `docker exec -it shopping-mongo /bin/bash` - заходим внутрь и запускаем баш (терминал)
-``
+3. `docker images` - просмотреть все образы
 ``
 
 Баш
@@ -22,7 +22,7 @@ mongo - образ Mongo DB
 ``
 
 Для работы с Mongo DB
-1. `mongo` - входим в Mongo DB, вызывается из терминала
+1. `mongo` - входим в Mongo DB, вызывается из терминала (предварительно войти в контейнер `docker exec -it shopping-mongo /bin/bash`)
 2. `show dbs` или `show collections` - показывает все базы данных или коллекции
 3. `use CatalogDb` - создаем базу данных CatalogDb
 4. `db.createCollection('Products')` - создаем коллекцию Products 

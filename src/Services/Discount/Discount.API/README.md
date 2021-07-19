@@ -1,12 +1,7 @@
 ﻿Добавление PostgreSQL в проект:
 1. Удостовериться, что установлен докер (проверить командой `docker ps`)
 2. Скачать образ PostgreSQL https://hub.docker.com/_/postgres с помощью команды `docker pull postgres`
-
-3. Запустить образ `docker run -d -p 27017:27017 --name shopping-mongo mongo`:
-shopping-mongo - имя контейнера (обращаемся к нему при работе)
-mongo - образ PostgreSQL
-Опракидываем на 27017 порт
-4. Проверяем, запущен ли он `docker ps`
+3. Инструмент pgadmin4 из https://hub.docker.com/r/dpage/pgadmin4 с помощью команды `docker pull dpage/pgadmin4`
 
 Вспомогательные команды:
 
@@ -43,8 +38,9 @@ API документ
 ![alt text](https://github.com/Vankezzz/AspnetMicroservices/blob/main/screenshots/catalog_api_doc.PNG "Описание работы сервиса")
 
 Nuget:
-1. MongoDB.Driver
+1. Npgsql
 2. Swashbuckle.AspNetCore
+3. Dapper
 
 Использованные паттерны:
 1. N-layer архитектура
